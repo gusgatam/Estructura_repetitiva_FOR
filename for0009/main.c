@@ -7,7 +7,7 @@ int main()
     int num;
     int c=0;
     int c1=0;
-    for (i=0;i<20;i++)
+    for (i=0;i<2;i++)//solo para prueba
     {
         printf("\nIngrese su saldo: ");
         scanf("%d", &num);

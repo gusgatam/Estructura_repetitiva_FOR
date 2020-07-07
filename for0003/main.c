@@ -3,27 +3,27 @@
 
 int main()
 {
-    int i;
-    int ii;
+    int i=0, ii=0, num=0, num1=0, con=0;// puedo declarar todo en una sola linea
+    /*nt ii;
     int num;
     int num1;
-    int con;
+    int con;*/
     printf("Ingrese un valores: ");
     scanf("%d", &num);
     printf("Ingrese un valores: ");
     scanf("%d", &num1);
     if (num>num1)
     {
-        for (num1=num1+1;num1<num;num1++)
+        for (i=num1+1;i<num;i++)/*no puedo usar os valores iniciales y finales como varaibles de control*/
         {
-            printf("\nLos numeros interiores son: %d", num1);
+            printf("\nLos numeros interiores son: %d", i);
         }
     }
     else
         {
-            for (num=num+1;num<num1;num++)
+            for (i=num+1;i<num1;i++)
         {
-            printf("\nLos numeros interiores son: %d", num);
+            printf("\nLos numeros interiores son: %d", i);
         }
         }
 

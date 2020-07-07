@@ -11,10 +11,10 @@ int main()
     int c=0;
     int f=0;
     int m=0;
-    for (i=0;i<20;i++)
+    for (i=0;i<2;i++)//solo para prueba
     {
         co=0;
-        for(ii=0;ii<15;ii++)
+        for(ii=0;ii<2;ii++)//solo para prueba
         {
             printf("\ningrese unidades vendidas: ");
             scanf("%d", &v);
